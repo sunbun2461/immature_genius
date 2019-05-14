@@ -1,0 +1,22 @@
+.lnr{
+	display: inline-block;
+	fill:currentColor;
+	width: 1em;
+	height: 1em;
+	vertical-align: 0;
+	stroke-width: 1;
+}
+
+.services-icon{
+	margin-bottom: 0px;
+	font-size:30px;
+
+}
+
+.topIcon {
+  font-size:2em;
+}
+
+h1{
+	font-size: 3em;
+}

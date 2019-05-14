@@ -1,0 +1,395 @@
+body {
+
+	padding-top: 0px;
+	background: white/*hsl(168, 55%, 94%)*/;
+	margin:0px;
+}
+
+/* Header/Blog Title */
+nav{
+
+	background:#ffdbd980;
+}
+
+
+
+
+
+
+li:hover{
+	background: white;
+
+}
+
+.nav-container{
+	font-family: "Indie Flower",monospace;
+	font-size: 29px;
+	background-color:;  
+	margin-top:0px;
+	padding: 0px;
+	height: 60px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.dropdown{
+	position:relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	height: 5px;
+	line-height: 30px;
+	text-align: left;
+	
+}
+
+a {
+	color: #bcafe7;
+	text-decoration: none;
+}
+/*
+#home{
+	text-align: center;
+	justify-content: center;
+	align-items: center;	
+}
+#about{
+	flex:1;
+	flex-basis:5%;	
+}
+#getting-started{
+	flex: 1;
+	
+	flex-basis:5%;
+}
+#learn{
+	flex:1;
+	
+	flex-basis:5%;
+}
+#external{
+	flex:1;
+	
+	flex-basis:5%;
+}
+*/
+.navbottom{
+	height:4vh;
+	width:100vw;
+	background-color:#bcafe7; 
+}
+	#top-button{
+	position: fixed;
+	margin-top: 65vh;
+	background: #bcafe7;
+	color: lightblue;
+	border-radius: 4px;
+	max-width:2.7em;
+	height:5em;
+	margin-left:93vw;
+	font-size: 30px;
+	
+}
+}
+.header {
+	top-margin:0px;
+	top-padding:px;
+	font-size:40px;
+	font-family: "Indie Flower",monospace;
+	text-align: center;
+	background: lightblu;
+	height: 200px;
+	display:flex !important;
+	flex-direction: row;
+
+}
+
+
+.logo1 {
+	text-align: center;
+	font-family: "Indie Flower";
+	font-size: 65px;
+	margin-top: 290px; 
+	margin-bottom: 0px;
+	color: #f394f3db/*#41c188*/;
+	position: relative;
+}
+
+.logo2 {
+	text-align:center;
+	font-family: "Indie Flower";
+	font-size: 49px;
+	margin-right:250px;
+	margin-top: -90px;
+	margin-bottom: 0px;
+	transform: rotate(90deg);
+	color:#4fdfa4/*#75d6f9*/;
+
+	position:relative;
+
+}
+
+#tagline{
+	font-family: "Indie Flower";
+	text-align: center;
+	font-size: 25px;
+	padding-top: 0px;
+	padding-top: 0px;
+	margin-top: 40px;
+	margin-bottom:200px;
+    color:#849bf7;
+}
+
+#small-logo-container{
+	visibility:hidden;
+	height: 1px;
+}
+/*or ^^ #f9bdf4*/
+/* Create two unequal columns that floats next to each other */
+/*Left column*/
+
+.leftcolumn {
+	padding-top: 200px;
+	padding-left: 100px;
+	width: 60%;
+	margin-right: 0px;
+	float:left;
+	font-size: 25px;
+	font-family: monospace;
+	
+}
+
+/* Right column */
+.rightcolumn {
+	padding-top:350px;
+	float:right;
+	width:25%;
+	padding-right:25px;
+}
+.side-p{
+	text-indent: 10px;
+}
+/*
+.lights-img{
+	height: 200px;
+	width: 200px;
+}
+
+/*image*/
+#home-office {
+	height:auto;
+	width:75%;
+}
+/* Add a card effect for articles */
+.card {
+	background-color:;
+	padding: 30px;
+	margin-top: 20px;
+	width:;
+	border-style: solid;
+	border-width: .01px;
+	
+
+}
+
+
+
+.card2 {
+	font-family: "Indie Flower";
+	width: 75%;
+	height: 300px;
+	border-color:;
+	border-style: ;
+	border-width: 5px;
+	border-radius: 20%;
+	background-color: /*rgba(250,172,168,.2)*/;
+}
+
+.heading {
+	color: #4fdfa4de;
+	font-size: 55px;
+	font-family: "Montserrat";
+	font-style: obliqu;
+}
+#sub-heading{
+	font-size: 20px;
+
+}
+
+
+.post1{
+	font-size:20px;
+	font-family: monospace;
+	text-indent: 50px;
+	line-height: 25px;
+	text-align: justify;
+	width: 100%;
+
+}
+
+	
+
+
+/* Clear floats after the columns */
+.row:after {
+
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*Footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: ;
+	margin-top: 20px;
+	position:relative;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other. */
+@media screen and (max-width: 740px) {
+	#top-button{
+	position: fixed;
+	margin-top: 370px;
+	background: #4FDFA4;
+	color: white;
+	border-radius: 4px;
+	max-width:4em;
+	height:auto;
+	margin-left:20px;
+	font-size: 15px;
+	}
+	.header{
+		font-size: 30px;
+	}
+	.leftcolumn p {
+		width: 100%;
+		padding: 0;
+		font-size: 13px;
+	}
+	.leftcolumn h2{
+		font-size: 30px;
+	}
+	#sub-heading{
+		font-size: 14px;
+	}
+	.rightcolumn{
+		width:65%;
+		font-size: 15px;
+
+	}
+	.nav-container{
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		grid-row-gap: 5px;
+		width:200px;
+		height:200px; 	 	 	
+	}
+	.logo1{
+	
+	
+	}
+	.logo2{
+	
+	}
+	#tagline{
+		font-size: 5vw;
+	}
+	li{
+		font-size: 15px;
+	}
+}
+
+
+@media (max-width: 429px ){
+	#small-logo-container{
+		visibility: visible;
+		padding-bottom: 80px;
+	}
+	#small-logo{
+		width: 100%;
+	}
+
+	.logo1,.logo2{
+		visibility: hidden;
+		height:1px;
+		width: 1px;
+	}
+	#tagline{
+		height:20px;
+	}
+}
+
+
+
+
+.dropdown{
+	position:relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+ /*	min-width: 350px;*/
+	line-height: 50px;
+	text-align: left;
+	
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+	
+
+}	
+.dropdown-content a:hover{
+
+	background-color:#fcd6d4; 
+}
+
+.box-container{
+	background-color: #ffdbd942;
+	height: 50vh;
+	width:70vh;
+	margin: auto;
+	margin-bottom: 0px;
+	display:grid;
+	grid-template-columns: 20px 20px 20px;
+	grid-gap: 25% 33%;
+	padding:9%;
+	max-height: 100%;
+	max-width:100%;
+}
+.box2, .box3, .box4, .box5, .box6, .box7 {
+	display: flex;
+	background-color:#f0d0ce;
+	text-align: center;
+	align-items: center;
+	height:15vh;
+	width: 15vh;
+	font-size: 1.5vw;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.box2,.box3,.box4,.box5,.box6,.box7 > span{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
