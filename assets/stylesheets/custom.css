@@ -20,3 +20,13 @@
 h1{
 	font-size: 3em;
 }
+
+#mainImg{/*
+	box-shadow:         3px 3px 5px 6px #cdd; */
+	border-radius: 25px;
+}
+
+.nav-link{
+	color:black !important ;
+
+}

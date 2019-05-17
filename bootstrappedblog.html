@@ -2,12 +2,13 @@
 <!-- the site
 file:///home/thomas/Dropbox/Web%20Dev/2nd%20webDevProject-immatureGeniusBlog/bootstrappedblog.html
 -->
-<!--
+
   https://favicon.io/favicon-generator/
   
 https://themes.3rdwavemedia.com/devcard/bs4/2.0/blog-home.html
-idea for a blog to model after possibly later
--->
+idea fo
+<!-- my logo design below -->
+<!-- https://editor.freelogodesign.org/?lang=en&logo=fc82f63d-19fd-44b5-9412-b222ac38db86 -->
 <!DOCTYPE html>
 <html>
   
@@ -19,7 +20,7 @@ idea for a blog to model after possibly later
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
-    <!-- Bootstrap CSS-->
+    <!-- Bootstrap CSS
       <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
@@ -33,35 +34,47 @@ idea for a blog to model after possibly later
   </head>
   <!-- removed 'fixed top' from the nav class -->
   <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top shadow-sm bg-white"><a href="bootstrappedblog.html" class="navbar-brand align-middle"><!-- <img class="img-fluid" src="immatureGenius10.jpg" style="height:4em;width:auto;"> -->  <svg class="topIcon lnr text-success align-middle services-icon">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-sm bg-white" style="background-color:#a8dfdb!important;">
+
+
+     <!-- <a href="bootstrappedblog.html" class="navbar-brand align-middle">
+
+
+      <svg class="topIcon lnr text-success align-middle services-icon">
           <use xlink:href="#lnr-graduation-hat"></use>
-          </svg> </a>
+          </svg> </a> -->
     <!-- .bg-white {
     background-color: rgba(115, 225, 242,.5)!important;
 }
  -->
     <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
     <div id="navbarSupportedContent" class="collapse navbar-collapse" >
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Tools</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Learning Resources</a></li>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="#" class="nav-link" style="display:none;">About</a></li>
+
+        <li class="nav-item"><a href="#" class="nav-link">Get Started</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">HTML</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">CSS</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Becoming a Coder F.A.Q's</a></li>
       </ul>
-      <div class="navbar-text ml-lg-3">
+      <div class="navbar-text mr-lg-3">
         <a href="#" class="btn btn-primary text-white shadow">Home</a>
       </div>
     </div>
   </nav>
 <!-- Hero Section -->
+<div id="logo" style="margin-top:100px;">
+<img alt="logo" class="img-fluid logo" src="assets/Images/logo5.png" style="height:10em;"> 
+</div>
 <section class="bg-light" style="margin-top:75px;">
   <div class="container mt-5 pt-5">
     <div class="row">
       <div class="col-lg-6 order-2 order-lg-1 mb-5">
-        <h1>How. To. Code.</h1>
-        <p class="lead">Coding. Programming. Developing. There are dozens of terms for this skill, and yes I said skill. It is not some mystical 'woo woo-dream cather' entity, or some magical hyrogliphics that only genius' can read.  That being said, it can be hard to navigate to the outsider hailing from far off lands like The Shire, or Tatooine.  So, as you get acclimatized(yes, it's a word) to the real world. You can learn how to code here, check it off your 'how to be awesome' list. </p>
+        <h1>Become A Coder</h1>
+        <p class="lead">Coding. Programming. Developing. There are dozens of terms for this skill, and yes I said skill. It is not some mystical 'woo woo-dream catcher' entity, or some magical hyrogliphics that only genius' can read.  That being said, it can be hard to navigate for the outsider.  So,you may get acclimatized(yes, it's a word)here, then check it off your 'how to be awesome' list. </p>
         <p><a href="#" class="btn btn-primary shadow mr-2">Supes Beginner?</a><a href="#" class="btn btn-outline-primary">webStack Secondary School</a></p>
       </div>
-      <div class="col-lg-6 order-1 order-lg-2"><img src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="..." class="img-fluid"></div>
+      <div class="col-lg-6 order-1 order-lg-2"><img src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="..." class="img-fluid" id="mainImg"></div>
     </div>
   </div>
 </section>
