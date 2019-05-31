@@ -2,20 +2,20 @@
 <!-- the site
 file:///home/thomas/Dropbox/Web%20Dev/2nd%20webDevProject-immatureGeniusBlog/bootstrappedblog.html
 -->
-
-  https://favicon.io/favicon-generator/
+<!-- https://favicon.io/favicon-generator/ -->
   
-https://themes.3rdwavemedia.com/devcard/bs4/2.0/blog-home.html
-idea fo
+<!-- https://themes.3rdwavemedia.com/devcard/bs4/2.0/blog-home.html -->
 <!-- my logo design below -->
 <!-- https://editor.freelogodesign.org/?lang=en&logo=fc82f63d-19fd-44b5-9412-b222ac38db86 -->
+<!-- font-family: 'Alegreya SC', serif;, font-family: 'Lato', sans-serif; -->
+<!-- https://visme.co/blog/website-color-schemes/ -->
 <!DOCTYPE html>
 <html>
   
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>An Informative Opinionated Coding Blog</title>
+    <title>JavaScript Journey</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,10 @@ idea fo
     <!-- Bootstrap CSS
       <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    -->
+   <link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="assets/stylesheets/custom.css" type="text/css">
 
@@ -34,7 +37,7 @@ idea fo
   </head>
   <!-- removed 'fixed top' from the nav class -->
   <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-sm bg-white" style="background-color:#a8dfdb!important;">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-sm bg-white" style="background-color:#41b3a3!important;">
 
 
      <!-- <a href="bootstrappedblog.html" class="navbar-brand align-middle">
@@ -49,42 +52,64 @@ idea fo
  -->
     <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
     <div id="navbarSupportedContent" class="collapse navbar-collapse" >
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a href="#" class="nav-link" style="display:none;">About</a></li>
-
-        <li class="nav-item"><a href="#" class="nav-link">Get Started</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">HTML</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">CSS</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Becoming a Coder F.A.Q's</a></li>
+      <h2 class="ml-3 mr-auto introText">Immature Genius</h2>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ml-3"><a href="#" class="nav-link" style="display:none;">About</a></li>
+        <li class="nav-item ml-3"><a href="#" class="nav-link">Blog</a></li>
+        <li class="nav-item ml-3"><a href="#" class="nav-link">Essentials of ES6</a></li>
+        <li class="nav-item ml-3"><a href="#" class="nav-link">Vanilla-Node.JS</a></li>
+        <!-- <li class="nav-item ml-3"><a href="#" class="nav-link"></a></li> -->
       </ul>
-      <div class="navbar-text mr-lg-3">
-        <a href="#" class="btn btn-primary text-white shadow">Home</a>
+      <div class="navbar-text mr-lg-5">
+        <a href="#" style="background-color:black;font-size: 1.6em" class="btn text-white shadow">Main</a>
       </div>
     </div>
   </nav>
-<!-- Hero Section -->
-<div id="logo" style="margin-top:100px;">
-<img alt="logo" class="img-fluid logo" src="assets/Images/logo5.png" style="height:10em;"> 
+<section>
+  <div class="container-fluid">
+  <!-- <div class="row"> -->
+<!-- <div class="col-lg-12" id="logo" style="margin-top:100px;"> -->
+<!-- <img alt="logo" class="img logo" src="assets/Images/logo5.png" style="height:8em;">  -->
+<!-- </div> -->
+<div class="col-lg-4 mt-5 mb-0" style="margin-top:90px !important">
+  <a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-linkedin"></a><a href="#" class="fa fa-instagram"></a>
 </div>
+</div>
+</div>
+</section>
 <section class="bg-light" style="margin-top:75px;">
-  <div class="container mt-5 pt-5">
+  <div class="container-fluid mt-5 pt-5">
     <div class="row">
-      <div class="col-lg-6 order-2 order-lg-1 mb-5">
-        <h1>Become A Coder</h1>
-        <p class="lead">Coding. Programming. Development. There are dozens of terms for this skill, and yes I said skill. It is not some mystical 'woo woo-dream catcher' entity, or some magical hyrogliphics that only genius' can read.  That being said, it can be hard to navigate for the outsider.  So,you may get acclimatized(yes, it's a word)here, then check it off your 'how to be awesome' list. </p>
-        <p><a href="#" class="btn btn-primary shadow mr-2">Supes Beginner?</a><a href="#" class="btn btn-outline-primary">webStack Secondary School</a></p>
+      <div class="col-lg-2 order-2 order-lg-1" style="background-color:;">
+        <svg class="lnr lnr-clock text-primary services-icon">
+          <use xlink:href="#lnr-clock"></use>
+        </svg>
       </div>
-      <div class="col-lg-6 order-1 order-lg-2"><img src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="..." class="img-fluid" id="mainImg"></div>
+      <div class="col-lg-5  order-3 order-lg-2 mb-5" style="">
+        <small>Add some key words in here, clock, JavaScript, Vanilla</small>
+        <h1>How many MilliSeconds has it been since 1970?</h1>
+        <p class="lead" style="text-indent:2em;">Let there be Time!  It feels like everytime I learn something new, I am a super noob once more. I feel like if there is this whole subject I never even touched, there must be dozens or even 100s more. Even so, we push on. I have made a small and sweet, easy little Vanilla JavaScript Digital Clock, here's what I learned...</p>  
+        <br>
+        <br>
+          <p class="">Follow me as I learn move on from Vanilla to Jquery. Or simply search through my list of common JavaScript issues, tips and tricks.</p>
+        <p><a href="#" class="btn shadow mr-2" style="color:white;background-color: #c38d9e;">JavaScript Basics</a><a href="#" class="btn butSec" style="color:white;background-color: #c38d9e;">JS Secondary School</a></p>
+      </div>
+      <!-- https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60 -->
+      <div class="col-lg-4 order-1 order-lg-3"><img src="https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80  " alt="..." class="img-fluid" id="mainImg">
+      <p><small>JavaScript can be mastered. Just like anything else in this world, one byte at a time.</small></p>
+      </div>
     </div>
   </div>
 </section>
-<hr width="85%" size="100px">
+<hr width="85%" size="">
 <section>
   <div class="container">
-    <h2>Below are Random WebStack issues that pop-up</h2>
-    <p class="text-muted mb-5">These posts follow my studies from novice to not-so-novice. From Algorithms I've finally figured out after banging my head against the wall for hours, simple ways to remember syntax, and just generally how I learned to code.</p>
+    <div class="col-lg-12">
+    <h2>Juicy JavaScript Morsels</h2>
+    <p class="text-muted mb-5">Novice to Not-So-Novice. Algorithms Cracked, Simple ways to remember Syntax, what the hell Async/Await is..</p>
+  </div>
     <div class="row">
-      <div class="col-sm-6 col-lg-4 mb-3">
+      <div class="col-sm-6 col-lg-4 mb-3 box1">
           <svg class="lnr text-primary services-icon">
           <use xlink:href="#lnr-magic-wand"></use>
           </svg>   
@@ -92,7 +117,7 @@ idea fo
         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve</p>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-3"> 
+      <div class="col-sm-6 col-lg-3 mb-3 box2"> 
           <svg class="lnr text-primary services-icon">
           <use xlink:href="#lnr-magic-wand"></use>
           </svg> 
@@ -100,7 +125,7 @@ idea fo
         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve</p>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-3"> 
+      <div class="col-sm-6 col-lg-4 mb-3 box1"> 
       <svg class="lnr text-primary services-icon">
           <use xlink:href="#lnr-magic-wand"></use>
           </svg>
@@ -108,7 +133,7 @@ idea fo
         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve</p>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-3"> 
+      <!-- <div class="col-sm-6 col-lg-4 mb-3"> 
       <svg class="lnr text-primary services-icon">
           <use xlink:href="#lnr-magic-wand"></use>
           </svg>
@@ -131,16 +156,18 @@ idea fo
         <h6>Exquisit ES6</h6>
         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
-
+<div class="container">
+  <h2>Lorem</h2>
+</div>
 <!-- Portfolio -->
 
 <section class="bg-light">
   <div class="container">
-    <h2>Portfolio</h2>
+    <h2>Ipsum</h2>
     <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
     <div class="row">
       <div class="col-md-4 mb-4">
