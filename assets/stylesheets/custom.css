@@ -1,6 +1,28 @@
 /*font-family: 'Lato', sans-serif;*/
 /*font-family: 'Alegreya', serif;*/
 
+
+/* I normally would do min-widths to have everything mobile first, I am still figuring out Bootstrap however, so I will allow this for now */
+@media only screen and (max-width:450px){
+  .introText{
+    font-size:2.5em;
+  }
+  section.bg-light{
+    margin:0px !important;
+  }
+  .lnr-clock{
+    height:80% !important;
+  }
+}
+
+
+/* 190622013012 */
+
+.readOn{
+  cursor:pointer !important;
+  
+}
+
 .introText{
 	color:white;
 	font-family: Lato !important;
@@ -52,26 +74,26 @@ p{
 
 
 .box1{
-   background-color:#85cdca;
+   background-color:#85cdca30;
    border-radius:10px;
 }
 
 .lnr-clock{
-	margin-left:2em;
-	width:50%;
-	height:20%;
+	width:100%;
+	height:50%;
 	color:#E8A87C !important;
+  font-size:0em;
 }
 .fa{
 	padding:20px;
-	font-size:1em;
+	font-size:2vh;
 	width:1em;
 	text-align: center;
 	text-decoration: none;
 	margin:5px 2px;
 	box-sizing:content-box;
 }
-.fa-facebook {
+.fa-github {
   background: #3B5998;
   color: white;
 }
@@ -83,3 +105,4 @@ p{
 	background:#dd4b39;
 	color:white;
 }
+
